@@ -5,27 +5,11 @@
     android:layout_height="match_parent"
     tools:context="id.sch.smktelkom_mlg.helloword.HomeActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="289dp"
         android:layout_height="wrap_content"
-        android:text="Nama : Dhana Arvina Alwan"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="176dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alamat : Sumberpucung"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="229dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TTL : Malang, 24 Desember 2001"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="283dp" />
+        android:text="Nama : Dhana Arvina Alwan Alamat : Sumberpucung, Malang TTL : Malang, 24 Desember 2001"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="160dp" />
 </android.support.constraint.ConstraintLayout>
